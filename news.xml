@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<news>
+		<title> 
+        </title>
+		<date>
+            October, 2018
+        </date>
+		<link>
+		   https://www.nature.com/articles/s41598-018-21172-9
+        </link>
+	</news>
+	<news>
+		<title>
+            NASA SMAP tracks flooding from Hurricane Michael
+        </title>
+		<date>
+            September, 2018
+        </date>
+		<link>
+		   https://photojournal.jpl.nasa.gov/catalog/PIA22754
+        </link>
+	</news>
+	<news>
+		<title>
+            NTSG Scientist Contributes to Global Biodiversity Research Effort
+        </title>
+		<date>
+            September, 2018
+        </date>
+		<link>
+		   http://news.umt.edu/2018/09/092118jone.php
+        </link>
+	</news>
+	<news>
+		<title>
+            New Technology for Landowners and Resource Managers Revolutionizes Rangeland Monitoring
+        </title>
+		<date>
+            September, 2018
+        </date>
+		<link>
+		   https://www.usda.gov/media/blog/2018/09/18/new-technology-landowners-and-resource-managers-revolutionizes-rangeland
+        </link>
+	</news>
+	<news>
+		<title>
+            New NASA SMAP Version 4 data product release
+        </title>
+		<date>
+            September, 2018
+        </date>
+		<link>
+		   http://nsidc.org/the-drift/data-update/data-set-update-reprocessing-is-complete-for-smap-levels-1-4-data/
+        </link>
+	</news>
+	<news>
+		<title>
+            John Kimball discusses opportunities for Big Data to address climate challenges
+        </title>
+		<date>
+            May, 2018
+        </date>
+		<link>
+		   https://blog.frontiersin.org/2018/05/16/frontiers-in-big-data-climate-sciences-john-kimball
+        </link>
+	</news>
+	<news>
+		<title>
+            Understanding high latitude methane in a warming climate
+        </title>
+		<date>
+            March, 2018
+        </date>
+		<link>
+		   https://eos.org/project-updates/understanding-high-latitude-methane-in-a-warming-climate
+        </link>
+	</news>
+	<news>
+		<title>
+            New NTSG Research reveals link between plant traits and global ecosystem productivity
+        </title>
+		<date>
+            March, 2018
+        </date>
+		<link>
+		   http://news.umt.edu/2018/03/030518plan.php
+        </link>
+	</news>
+	<news>
+		<title>
+            UM Professors Listed Among ‘World’s Most Influential Scientific Minds’
+        </title>
+		<date>
+            January, 2018
+        </date>
+		<link>
+		    http://news.umt.edu/2018/01/011018mind.php
+        </link>
+	</news>
+	<news>
+		<title>
+            New FT-ESDR polar fine grid product release at NSIDC
+        </title>
+		<date>
+            January, 2018
+        </date>
+		<link>
+		    https://nsidc.org/data/nsidc-0728
+        </link>
+	</news>
+	<news>
+		<title>
+            Steve Running Talk: "Is terrestrial net primary production a planetary boundary for the carbon cycle?"
+        </title>
+		<date>
+            December, 2017
+        </date>
+		<link>
+		    http://www.creaf.cat/Talks/steven-w-running-27-sept
+        </link>
+	</news>
+	<news>
+		<title>
+            Congratulations NTSG wins University of Montana Website Award
+        </title>
+		<date>
+            October, 2017
+        </date>
+		<link>
+		    http://news.umt.edu/2017/10/102417pine.php
+        </link>
+	</news>
+	<news>
+		<title>
+            Congratulations NTSG Alumni Ramakrishna Nemani for the 2017 Distinguished Alumni Award from the University of Montana
+        </title>
+		<date>
+            September, 2017
+        </date>
+		<link>
+		    http://news.umt.edu/2017/09/092017alum.php
+        </link>
+	</news>
+	<news>
+		<title>
+            Version 4 global daily freeze-thaw record available at NSIDC
+        </title>
+		<date>
+            September, 2017
+        </date>
+		<link>
+		    http://nsidc.org/the-drift/data-update/version-4-daily-freezethaw-status-of-the-landscape-now-available/
+        </link>
+	</news>
+	<news>
+		<title>
+            Tracking Changing Soil Temperature, Moisture, and Carbon in the Arctic
+        </title>
+		<date>
+            September, 2017
+        </date>
+		<link>
+		    https://earthobservatory.nasa.gov/blogs/fromthefield/2017/09/06/tracking-changing-soil-temperature-moisture-and-carbon-in-the-arctic/
+        </link>
+	</news>
+	<news>
+		<title>
+            Using SMAP to monitor surface flooding from Hurricane Harvey
+        </title>
+		<date>
+            August, 2017
+        </date>
+		<link>
+		    http://www.ntsg.umt.edu/media/news/huricane.php
+        </link>
+	</news>
+	<news>
+		<title>
+            Harnessing rich satellite data to estimate crop yield
+        </title>
+		<date>
+            August, 2017
+        </date>
+		<link>
+            https://www.eurekalert.org/pub_releases/2017-08/uoic-hr081617.php
+        </link>
+	</news>
+	<news>
+		<title>
+            UM wins NASA grant to study ag impacts on water resources
+        </title>
+		<date>
+            August, 2017
+        </date>
+		<link>
+            http://missoulacurrent.com/outdoors/2017/08/missoula-um-nasa-grant-water/
+        </link>
+	</news>
+	<news>
+		<title>
+            Senator Tester Applauds Partnership
+        </title>
+		<date>
+            July, 2017
+        </date>
+		<link>
+            http://staging.ntsg.umt.edu/media/news/default.php 
+        </link>
+	</news>
+	<news>
+		<title>
+            New SMAP L4C Product Release (v 3.0) 
+        </title>
+		<date>
+            April, 2017
+        </date>
+		<link>
+            http://staging.ntsg.umt.edu/media/news/default.php
+        </link>
+	</news>
+	<news>
+		<title>
+            How a Melting Arctic Changes Everything
+        </title>
+		<date>
+            April, 2017
+        </date>
+		<link>
+            https://www.bloomberg.com/graphics/2017-arctic/
+        </link>
+	</news>
+</root>

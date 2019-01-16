@@ -1,0 +1,77 @@
+<script type="text/javascript">
+require(["jquery"],function(jQuery){
+    $(document).ready(function(){
+      var newsListLength = 5; //How many news items are populated
+      var newsListEnd = newsListLength; 
+      var newsIndex = 0        //Index of the article that will be shown at the top
+      
+      var xmlItems;
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          xmlItems = this;
+          loadArticles(xmlItems);
+        }
+      };
+      xhttp.open("GET", "news.xml", true);
+      xhttp.send();
+      
+      $("#older-button").click(function(){
+        newsIndex += newsListLength;
+        newsListEnd += newsListLength;
+        //Reload the news
+        loadArticles(xmlItems);
+      });
+      
+      $("#newer-button").click(function(){
+        newsIndex -= newsListLength;
+        newsListEnd -= newsListLength;
+        //Reload the news
+        loadArticles(xmlItems);
+      });
+      
+      function loadArticles(xml) {
+        //This function should be called when 
+        var xmlDoc = xml.responseXML;
+        var newsItems;
+          try{
+    newsItems = xmlDoc.getElementsByTagName("news");
+  }catch(error){
+    alert("Error in reading XML file! Search for any (&) or (<) in data that aren't replaced by entity references. Look at https://www.w3schools.com/xml/xml_syntax.asp for more information.")
+  }
+        var table = ""
+        for(var i = newsIndex; i < newsListEnd; i++){
+          try{
+            table += "<tr><td><a target=\"_blank\" href=" +
+            newsItems[i].getElementsByTagName("link")[0].childNodes[0].nodeValue.trim()
+            + " class=\"news-item\">" +
+            //Pull string data from the xml database and trim it
+            newsItems[i].getElementsByTagName("title")[0].childNodes[0].nodeValue.trim() + "</a><td>" +
+            newsItems[i].getElementsByTagName("date")[0].childNodes[0].nodeValue.trim() + "</td>";
+            
+          }catch(error){
+            if(RangeError){
+              table += "<tr><td><b>See Media section for additional news</b></td><td>"
+              document.getElementById("news-container").innerHTML = table;
+              //Disable the older button if there are no more articles
+              document.getElementById("older-button").disabled = true; 
+              break;
+            }else{
+              //If this error is caught, some data must be missing in the xml database
+              table += "<tr><td><b>Article missing</b></td><td>"
+            }
+          }
+          document.getElementById("news-container").innerHTML = table;
+          //Enable the more button if there might be more articles
+          document.getElementById("older-button").disabled = false; 
+        }
+        //Disable the older button if there are no articles before
+        if(newsIndex - newsListLength >= 0){
+          document.getElementById("newer-button").disabled = false; 
+        }else{
+          document.getElementById("newer-button").disabled = true; 
+        }
+      }
+      
+    });
+});
